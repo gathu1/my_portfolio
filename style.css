@@ -1,0 +1,95 @@
+body{
+    background-color: #022A30;
+    
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #eef3db;
+    font-weight: 700;
+}
+
+h1 {
+    position: center;
+}
+p {
+    color: #b6cbce;
+}
+
+ .text-brand {
+    color: #e0f780;
+ }
+
+ .btn{
+    padding: 12px 28px;
+    font-weight: 700;
+ }
+
+ .btn-brand{
+    background-color: #e0f780;
+    border-color: #e0f780;
+ }
+
+.btn-brand:hover,
+.btn-brand:focus {
+    background-color: #022a30;
+    color: #033f47;
+  
+}
+
+.link-custom {
+    color: #b6cbce;
+}
+a:hover {
+    color: #e0f780;
+}
+
+
+.full-height {
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.navbar .nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.navbar-brand img{
+    border: 8px solid #e0f780;
+}
+
+.navbar {
+    background-color: #033f47;
+}
+
+.link-custom {
+    font-weight: 700;
+    position: relative;
+}
+
+.link-custom::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #e0f780;
+    position: absolute;
+    left: 0;
+    top: 110%;
+    transition: all 0.4s;
+}
+
+.link-custom:hover::after {
+    width: 100%;
+}
+
+.form-label {
+    color: #e0f780;
+}
+
+.goback {
+    background-color: #022a30;
+    color: #e0f780;
+}
+
