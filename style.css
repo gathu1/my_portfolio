@@ -96,10 +96,31 @@ a:hover {
 .fntp{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
+    color: #fff;
 }
 
 li{
     color: #b6cbce;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
+}
+
+.listh{
+    color: #e0f780;
+}
+
+.link-sumit a:hover{
+color: #022a30;
+}
+
+.card-body{
+    background-color: #022A30;
+}
+
+.main{
+    background: url(./Assets/dot-green-wave-light-screen-260nw-1888528993.webp) no-repeat;
+    background-size: cover; 
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
 }
