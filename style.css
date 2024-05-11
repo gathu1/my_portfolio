@@ -12,7 +12,7 @@ h1 {
     position: center;
 }
 p {
-    color: #b6cbce;
+    color: #fff;
 }
 
  .text-brand {
@@ -32,7 +32,8 @@ p {
 .btn-brand:hover,
 .btn-brand:focus {
     background-color: #022a30;
-    color: #033f47;
+    color: #fff;
+    border: 1px solid #fff;
   
 }
 
@@ -42,6 +43,7 @@ p {
 a:hover {
     color: #e0f780;
 }
+
 
 
 .full-height {
@@ -58,10 +60,6 @@ a:hover {
 
 .navbar-brand img{
     border: 8px solid #e0f780;
-}
-
-.navbar {
-    background-color: #033f47;
 }
 
 .link-custom {
@@ -100,7 +98,7 @@ a:hover {
 }
 
 li{
-    color: #b6cbce;
+    color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
 }
@@ -109,9 +107,9 @@ li{
     color: #e0f780;
 }
 
-.link-sumit a:hover{
+/* .link-sumit a:hover{
 color: #022a30;
-}
+} */
 
 .card-body{
     background-color: #022A30;
@@ -127,4 +125,19 @@ color: #022a30;
 
 strong{
     color: #e0f780;
+}
+
+.card-title {
+    text-decoration: underline;
+}
+
+.link-sumit {
+    background-color: #e0f780;
+    color: #022A30;
+    border: 1px solid #e0f780;
+    border-radius: 10px;
+}
+
+.link-sumit:hover{
+    color: #022A30;
 }
